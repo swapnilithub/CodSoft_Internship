@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+
+body{
+    background-color:#ffffff ;
+    color: rgb(111, 159, 187);
+    font-family:'Poppins',sans-serif;
+   }
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:60px;
+    margin-top:30px;
+    
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style:none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration:none ;
+    color:rgb(255, 255, 255);
+    font-size:1.2rem;
+    transition:transform 0.5s;
+
+    
+
+}
+.right{
+    color: aqua;
+}
+.nav ul li a:hover{
+    color:rgb(66, 135, 168);
+    font-size: 1.4rem;
+}
+
+.left{
+    font-size: 2rem;
+}
+.portfolio{
+    color:rgb(56, 137, 164);
+    font-size: 2.5rem;
+}
+.textbox{
+    margin-top:10%;
+    margin-left:10%;
+}
+.text{
+    color:rgb(255, 255, 255);
+    font: weight 30px;
+    
+}
+.car{
+    font-size:2.5rem;
+    font: weight 400px;;
+    color:rgb(10, 141, 150);
+}
+.btn{
+display:block;
+
+width:fit-content;
+
+
+padding:10px 20px;
+border-radius:20px;
+text-decoration:none;
+color:#ffffff;
+background-color:rgb(10, 113, 150); 
+}
+.para{
+    font-size: large;
+    color:rgb(10, 122, 150); 
+    margin: 50px;
+    padding: 50px; 
+}
+.text-image img{
+    
+    height:450px;
+    border: 100px;
+    margin-left: 55%;
+    margin-top:-21%;
+    margin-bottom: 30px;
+}
+.logos{
+margin-top:30px;
+margin-left: 97%;
+margin-top:-25%;
+
+}
+.logos a{
+text-decoration:none;
+font-size:30px;
+margin-right:15px;
+color:rgb(251, 251, 251);
+display:grid;
+transition:transform 0.5s;
+
+}
+.logos a :hover{
+    color:rgb(21, 158, 160);
+    transform:translateY(-10px);
+}
+.facebook{
+    margin-bottom:100%;
+}
+.twitter{
+    margin-bottom:100%;
+
+}
+.copyright{
+    text-align: center;
+    text-shadow: #fff;
+    left: 50px;
+    right: 50px;
+}
+footer{
+    color: rgb(125, 176, 198);
+    background-position: bottom;
+    position: relative;
+    text-align-last: center;
+}
+pre{
+    text-size-adjust: 20px;
+}
+
+    
